@@ -1,0 +1,100 @@
+    .container {
+        width: 70%;
+        margin: 40px auto;
+        border: 2px solid goldenrod;
+        padding: 20px;
+        background-color: rgba(245, 245, 245, 0.773);
+        box-shadow: 10px 1rgba(245, 245, 245, 0.662);
+    }
+
+    .header {
+        height: 200px;
+        background-color: #00000084;
+        /* display: flex;
+    justify-content: center;    
+    align-items: center;
+    justify-content: space-between; */
+        border-radius: 20px;
+        color: #fff;
+        padding: 20px;
+
+    }
+
+    .header>h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 800;
+
+        text-decoration: underline;
+        font-size: 30px;
+        filter: drop-shadow(0 0 1px rgba(37, 39, 0, 0.796));
+        display: flex;
+    }
+
+    .header>img {
+        text-align: center;
+        border-radius: 5%;
+        display: flex;
+    }
+
+    .header>h2 {
+        scale: 1;
+        transition: 0.7s;
+        text-decoration: underline rgb(243, 227, 1);
+        font-size: 17px;
+        position: relative;
+        left: 550px;
+        bottom: 200px;
+    }
+
+    .header>h2:hover {
+        cursor: pointer;
+        scale: 1.1;
+    }
+
+    .section {
+        margin-bottom: 20px;
+
+
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+
+    .experience,
+    .education {
+        margin-bottom: 10px;
+    }
+
+    ul {
+
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: inline-flexbox;
+
+    }
+
+    li {
+        margin-bottom: 10px;
+        padding: 10px 50px;
+
+        background: linear-gradient(100deg, rgba(100, 137, 172, 0.692)20%, rgba(65, 89, 112, 0.281) 80%);
+        color: rgb(0, 0, 0);
+        text-decoration: underline 2.5px rgb(0, 0, 0);
+        border-radius: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 900;
+        transition: 0.7s;
+        font-size: 20px;
+
+
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    li:hover {
+        background: linear-gradient(100deg, rgba(35, 49, 61, 0.421)20%, rgba(65, 89, 112, 0.821) 80%);
+        color: whitesmoke;
+    }
