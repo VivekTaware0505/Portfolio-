@@ -7,7 +7,7 @@ import { NavbarComponent } from "./component/navbar/navbar.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ResuemComponent, PortpolioComponent, NavbarComponent],
+  imports: [RouterOutlet, ResuemComponent, PortpolioComponent, NavbarComponent, ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

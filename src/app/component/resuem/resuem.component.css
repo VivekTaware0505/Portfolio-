@@ -10,10 +10,7 @@
     .header {
         height: 200px;
         background-color: #00000084;
-        /* display: flex;
-    justify-content: center;    
-    align-items: center;
-    justify-content: space-between; */
+
         border-radius: 20px;
         color: #fff;
         padding: 20px;
@@ -37,18 +34,13 @@
     }
 
     .header>h2 {
-        scale: 1;
+
         transition: 0.7s;
         text-decoration: underline rgb(243, 227, 1);
         font-size: 17px;
         position: relative;
         left: 550px;
         bottom: 200px;
-    }
-
-    .header>h2:hover {
-        cursor: pointer;
-        scale: 1.1;
     }
 
     .section {
