@@ -5,6 +5,7 @@ import { AboutComponent } from './component/about/about.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { UiuxdesignerComponent } from './component/uiuxdesigner/uiuxdesigner.component';
 import { PowerbiComponent } from './component/powerbi/powerbi.component';
+import { WebdevComponent } from './component/webdev/webdev.component';
 
 export const routes: Routes = [
 
@@ -13,7 +14,8 @@ export const routes: Routes = [
     {path:"about",component:AboutComponent},
     {path:"contact",component:ContactComponent},
     {path:"uiux",component:UiuxdesignerComponent},
-    {path:"powerbi",component:PowerbiComponent}
+    {path:"powerbi",component:PowerbiComponent},
+    {path:"web",component:WebdevComponent}
     
 
    
