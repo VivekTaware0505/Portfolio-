@@ -160,33 +160,33 @@
 
     0% {
         transform: rotate(0);
-        background-color: rgb(77, 1, 131);
+        background-color: rgb(56, 1, 95);
 
     }
 
     25% {
         transform: rotate(5deg);
-        background-color: rgb(146, 3, 241);
+        background-color: rgb(26, 0, 43);
 
     }
 
     50% {
         transform: rotate(0);
         transform: scale(1.03);
-        background-color: rgb(145, 1, 234);
+        background-color: rgb(36, 0, 58);
 
     }
 
     75% {
         transform: rotate(-5deg);
-        background-color: rgb(154, 3, 248);
+        background-color: rgb(44, 0, 71);
 
     }
 
     100% {
         transform: rotate(0);
         transform: scale(1);
-        background-color: rgb(77, 1, 131);
+        background-color: rgb(56, 1, 95);
 
     }
 
