@@ -132,24 +132,24 @@
     width: 400px;
     height: 200px;
     /* background-image: linear-gradient(100deg, rgb(249, 133, 0) 50%, rgb(2, 204, 255) 50%); */
-    background-color: rgb(77, 1, 131);
+    /* background-color: rgb(146, 245, 254); */
     color: black;
     font-weight: 500;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
 
     border-radius: 10px;
     font-size: cover;
     transition: 0.6s;
     scale: 1;
     
-    box-shadow: 1px 2px 5px rgba(212, 155, 10, 0.875);
+    box-shadow: 1px 2px 5px rgba(208, 151, 8, 0.875);
     animation: rt 5s infinite;
 
 }
 
 .sbox:hover {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 249, 249);
+    background-color: rgb(55, 2, 2);
+    color: rgb(0, 0, 0);
     scale: 1.05;
 }
 
@@ -160,33 +160,33 @@
 
     0% {
         transform: rotate(0);
-        background-color: rgb(56, 1, 95);
+        background-color: rgb(244, 230, 107);
 
     }
 
     25% {
         transform: rotate(5deg);
-        background-color: rgb(26, 0, 43);
+        background-color: rgb(242, 177, 98);
 
     }
 
     50% {
         transform: rotate(0);
         transform: scale(1.03);
-        background-color: rgb(36, 0, 58);
+        background-color: rgb(249, 112, 192);
 
     }
 
     75% {
         transform: rotate(-5deg);
-        background-color: rgb(44, 0, 71);
+        background-color: rgb(125, 246, 244);
 
     }
 
     100% {
         transform: rotate(0);
         transform: scale(1);
-        background-color: rgb(56, 1, 95);
+        background-color: rgb(210, 140, 245);
 
     }
 
@@ -244,7 +244,7 @@
     height: 150px;
     margin-top: 50px;
 
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(141, 0, 249);
     border-radius: 10%;
     box-shadow: 0 0 5px whitesmoke;
 }
